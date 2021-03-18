@@ -1,0 +1,10 @@
+prefixes:
+  roboto: toit-font-google-100dpi-roboto
+  pictogrammers_icons: toit-icons-pictogrammers
+packages:
+  toit-font-google-100dpi-roboto:
+    url: github.com/toitware/toit-font-google-100dpi-roboto
+    version: 1.0.0
+  toit-icons-pictogrammers:
+    url: github.com/toitware/toit-icons-pictogrammers
+    version: 1.0.0
