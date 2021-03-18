@@ -8,7 +8,7 @@ import texture show *
 import two_color show *
 import pixel_display show TwoColorPixelDisplay
 
-import ..third_party.tiger
+import .third_party.tiger
 
 ws := TwoColorPixelDisplay "eink"
 
