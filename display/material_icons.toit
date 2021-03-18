@@ -5,11 +5,16 @@
 import font show *
 import pixel_display show TwoColorPixelDisplay
 
-// Import size-96 icons based on the Templarian version of the
+// Import size-96 icons based on the Pictogrammers version of the
 // Material Design Icons project at https://materialdesignicons.com/
+// This is a package installed with
+// toit pkg install toit-icons-pictogrammers
+// If this import fails you need to run `toit pkg fetch` in this directory.
 import pictogrammers_icons.size_96 as icons
 
 // A large, bold font for the temperature.
+// Roboto is a package installed with
+// toit pkg install toit-font-google-100dpi-roboto
 import roboto.bold_36 as roboto
 
 // Create a font that covers Western European languages (the Latin-1 subset of

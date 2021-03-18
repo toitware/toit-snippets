@@ -3,7 +3,9 @@
 // found in the LICENSE file.
 
 import font show *
+// Roboto is a package installed with
 // toit pkg install toit-font-google-100dpi-roboto
+// If this import fails you need to run `toit pkg fetch` in this directory.
 import roboto.bold_36 as roboto_36_bold
 import font.x11_100dpi.sans.sans_14_bold as sans_14
 import pixel_display show TrueColorPixelDisplay
