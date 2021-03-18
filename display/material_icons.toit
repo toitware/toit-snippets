@@ -7,7 +7,7 @@ import pixel_display show TwoColorPixelDisplay
 
 // Import size-96 icons based on the Templarian version of the
 // Material Design Icons project at https://materialdesignicons.com/
-import font.templarian.material_design_icons.icons_96 as icons
+import pictogrammers_icons.size_96 as icons
 
 // A large, bold font for the temperature.
 import roboto.bold_36 as roboto
