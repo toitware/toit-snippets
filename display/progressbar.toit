@@ -29,14 +29,14 @@ main:
     sleep SLEEP_DURATION
 
 class ProgressBar:
-  width/int ::= ?
-  height/int ::= ?
-  x/int ::= ?
-  y/int ::= ?
-  context/GraphicsContext ::= ?
-  display/TwoColorPixelDisplay ::= ?
-  rectangle_/two_color.FilledRectangle ::= ?
-  progress_/float := 0.0
+  width /int ::= ?
+  height /int ::= ?
+  x /int ::= ?
+  y /int ::= ?
+  context /GraphicsContext ::= ?
+  display /TwoColorPixelDisplay ::= ?
+  rectangle_ /two_color.FilledRectangle ::= ?
+  progress_ /float := 0.0
 
   constructor .display --.width --.height --.x --.y --progress/num=0 --draw/bool=true --.context=display.context:
     if not (0 <= progress <= 100):
